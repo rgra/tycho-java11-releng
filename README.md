@@ -1,5 +1,9 @@
 # tycho-java11-releng
 
+Fixed with https://bugs.eclipse.org/bugs/show_bug.cgi?id=571432
+
+# doc
+
 Set JAVA_HOME to Java >=11
 
 cd repository
