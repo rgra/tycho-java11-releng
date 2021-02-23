@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+<target name="Eclipse 4.18 + Birt 4.9" sequenceNumber="1">
+<environment>
+<os>win32</os>
+<ws>win32</ws>
+<arch>x86_64</arch>
+<nl>de</nl>
+</environment>
+	<targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
+	<locations>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="file:/D:/workspaces/otis_tycho_dev/tycho-java11-releng/repository/target/repository/"/>
+			<unit id="com.sun.activation.jakarta.activation" version="1.2.1"/>
+			<unit id="com.sun.xml.bind.jaxb-osgi" version="2.3.3.b02"/>
+			<unit id="jakarta.xml.bind-api" version="2.3.2"/>
+		</location>
+	</locations>
+</target>

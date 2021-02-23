@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Req-xml
+Bundle-SymbolicName: req-xml
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: req.xml
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: javax.xml.bind;version="2.3.2"
