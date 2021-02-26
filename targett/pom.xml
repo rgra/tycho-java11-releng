@@ -25,15 +25,15 @@
 			<plugin>
 				<groupId>org.eclipse.tycho.extras</groupId>
 				<artifactId>target-platform-validation-plugin</artifactId>
-				<version>2.2.0</version>
+				<version>${tycho-version}</version>
 				<executions>
 					<execution>
-						<phase>none</phase>
+						<phase>verify</phase>
 						<goals>
 							<goal>validate-target-platform</goal>
 						</goals>
 						<configuration>
-							<executionEnvironment>JavaSE-11</executionEnvironment>
+							<executionEnvironment>${tycho-exec-env}</executionEnvironment>
 							<targetFiles>test.target</targetFiles>
 							<checkDependencies>true</checkDependencies>
 							<checkProvisioning>true</checkProvisioning>
